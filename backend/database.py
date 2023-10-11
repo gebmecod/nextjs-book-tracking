@@ -7,6 +7,3 @@ connection = mysql.connector.connect(
     password="password",
     database="book_tracking",
 )
-
-# close the connection when finished
-connection.close()
